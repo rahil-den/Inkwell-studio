@@ -1,0 +1,46 @@
+# Inkwell Studio — Tauri-ready Vite + React desktop app
+
+# Dependencies
+node_modules/
+pnpm-workspace.yaml
+.npmrc
+
+# Build output
+dist/
+dist-ssr/
+
+# Rust / Tauri build artifacts
+src-tauri/target/
+src-tauri/Cargo.lock
+
+# Tauri bundle output
+src-tauri/gen/
+
+# TypeScript build info
+*.tsbuildinfo
+node_modules/.tmp/
+
+# Vite
+.vite/
+
+# Environment files (NEVER commit secrets)
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Editor / OS artifacts
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/settings.json
+
+# pnpm
+.pnpm-debug.log
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
